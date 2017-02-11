@@ -1,1 +1,66 @@
+nav {
+	padding-top: 10px;
+	padding-left: 60px;
+	padding-right: 60px;
+	position: relative;
+	background-color: grey;
+	height: 70px;
+}
 
+#navlist li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 10px;
+}
+
+#navlist li + li:before{
+    content: " | ";
+    padding: 0 10px;
+}
+
+.logo {
+	height: 50px;
+	margin-bottom: 5px;
+	border-radius: 50%;
+	vertical-align: middle;
+	border: 1px solid black;
+	position: absolute;
+	left: 40px;
+}
+
+ #border-box{
+ 	border: 10px green dotted;
+ 	height: 300px;
+ 	width: 600px;
+ 	position: absolute;
+	left: 25%;
+	top: 30%;
+}
+
+#space-dog{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	right: 0; 
+	bottom: 0;
+}
+
+#space-cat{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	left: 0;
+	top: 0;
+}
+
+#bg {
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	z-index: -1;
+
+		
+	/* Preserve aspet ratio */
+	min-width: 100%;
+	min-height: 100%;
+}
